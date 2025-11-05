@@ -1,4 +1,7 @@
 package strategies;
 
-public class UpdateStrategy {
+import java.util.Random;
+
+public interface UpdateStrategy {
+    String fetchWeatherData();
 }
